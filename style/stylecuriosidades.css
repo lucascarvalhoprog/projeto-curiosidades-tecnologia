@@ -73,6 +73,7 @@ main h1{
     font-family: var(--font-destaque);
     font-size: 3em;
     background-image: linear-gradient(to right, var(--cor3), transparent);
+    border-radius: 5px 0 0 5px;
     color: var(--cor5);
     text-indent: 30px;
     margin-left: 20px;
