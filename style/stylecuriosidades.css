@@ -92,16 +92,21 @@ section{
 section p{
     display: inline-block;
     max-width: 300px;
+    min-width: 250px;
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding-left: 150px;
+    padding-left: 135px;
     font-family: var(--font-destaque);
     font-size: 1.5em;
     color: var(--cor4);
+    text-align: justify;
 }
-
+section img{
+    max-width: 30%;
+    padding: 15px 0 15px 20px;
+}
 section a{
     text-decoration: none;
 }
